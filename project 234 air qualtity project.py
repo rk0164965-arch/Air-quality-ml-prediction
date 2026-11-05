@@ -35,7 +35,7 @@ os.makedirs("graphs", exist_ok=True)
 
 # 2. LOAD DATASET
 
-df = pd.read_csv("C:/Users/rk016/Downloads/3b01bcb8-0b14-4abf-b6f2-c1bfd384ba69 (2).csv")
+   df = pd.read_csv("air_quality.csv")
 
 print("\nFIRST FIVE ROWS")
 print(df.head())
